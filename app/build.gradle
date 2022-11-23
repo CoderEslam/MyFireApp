@@ -87,6 +87,10 @@ android {
     }
 }
 
+realm {
+    syncEnabled = true
+}
+
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -106,6 +110,13 @@ dependencies {
     implementation project(path: ':AXEmojiView')
     implementation project(path: ':OmRecorder')
     implementation project(path: ':androidbuttonprogress')
+    implementation project(path: ':StorageChooser')
+    implementation project(path: ':StickyHeader')
+    implementation project(path: ':musicwave')
+    implementation project(path: ':expandablecheckrecyclerview')
+    implementation project(path: ':expandablerecyclerview')
+    implementation project(path: ':RecordView')
+    implementation project(path: ':shimmerlayout')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
@@ -122,6 +133,10 @@ dependencies {
     implementation "io.github.aghajari:AXEmojiView:$emojiViewVersion"
     implementation "io.github.aghajari:AXEmojiView-$emojiViewProvider:$emojiViewVersion"
 
+//    implementation('io.realm:android-adapters:3.0.0')
+
+//    implementation 'io.realm:android-adapters:4.0.0'
+//    implementation 'androidx.recyclerview:recyclerview:1.2.1'
 
 
 

@@ -15,15 +15,21 @@
             <option value="$PROJECT_DIR$/AXEmojiView-GoogleProvider" />
             <option value="$PROJECT_DIR$/AXEmojiView-WhatsAppProvider" />
             <option value="$PROJECT_DIR$/OmRecorder" />
+            <option value="$PROJECT_DIR$/RecordView" />
+            <option value="$PROJECT_DIR$/StickyHeader" />
             <option value="$PROJECT_DIR$/StorageChooser" />
             <option value="$PROJECT_DIR$/androidbuttonprogress" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/cameraView" />
             <option value="$PROJECT_DIR$/ccp" />
+            <option value="$PROJECT_DIR$/expandablecheckrecyclerview" />
+            <option value="$PROJECT_DIR$/expandablerecyclerview" />
             <option value="$PROJECT_DIR$/hidely" />
             <option value="$PROJECT_DIR$/imageeditengine" />
             <option value="$PROJECT_DIR$/matisse" />
+            <option value="$PROJECT_DIR$/musicwave" />
             <option value="$PROJECT_DIR$/photoview" />
+            <option value="$PROJECT_DIR$/shimmerlayout" />
             <option value="$PROJECT_DIR$/stories-progress-view" />
           </set>
         </option>
