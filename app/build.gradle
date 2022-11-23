@@ -100,6 +100,12 @@ dependencies {
     implementation project(path: ':ccp')
     implementation project(path: ':matisse')
     implementation project(path: ':photoview')
+    implementation project(path: ':AXEmojiView-WhatsAppProvider')
+    implementation project(path: ':AXEmojiView-EmojidexProvider')
+    implementation project(path: ':AXEmojiView-GoogleProvider')
+    implementation project(path: ':AXEmojiView')
+    implementation project(path: ':OmRecorder')
+    implementation project(path: ':androidbuttonprogress')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
@@ -115,6 +121,7 @@ dependencies {
 
     implementation "io.github.aghajari:AXEmojiView:$emojiViewVersion"
     implementation "io.github.aghajari:AXEmojiView-$emojiViewProvider:$emojiViewVersion"
+
 
 
 
