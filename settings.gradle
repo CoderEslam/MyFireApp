@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "FireApp"
+include ':app'
+include ':hidely'
+include ':cameraView'
+include ':imageeditengine'
+include ':stories-progress-view'
+include ':matisse'
+include ':ccp'
+include ':photoview'
+include ':AXEmojiView-WhatsAppProvider'
+include ':AXEmojiView-EmojidexProvider'
+include ':AXEmojiView-GoogleProvider'
+include ':AXEmojiView'
+//include ':om-recorder'
+include ':OmRecorder'
